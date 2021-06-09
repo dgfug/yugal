@@ -1,0 +1,61 @@
+.dialog{background: #fff;
+    width: 60%;
+    display: inline-block;
+    margin-top: 24vh;
+    text-align: left;
+    border-radius: 13px;
+    color: #181818;
+    padding: 20px;}
+    #overlay, #progress{    position: fixed;
+        width: 100%;
+        top:0;
+        left:0;
+        height: 100vh;
+        background: #000000b8;
+        text-align: center;
+        display: none;
+    }
+    #toast{
+        width:100%;
+        position:fixed;
+        bottom:0;
+        text-align: center;
+        display: none;
+
+    }
+    #visi{
+        display: inline-block;
+        width:100%;
+        text-align: left;
+        background: #404040;
+        padding:8px;
+        padding-top:10px;
+        padding-bottom: 10px;
+        color:#fff;
+    }
+    .dialog button{
+        float: right;
+    margin: 12px;
+    padding: 5px;
+    background: transparent;
+    border: 0;
+    color: #0f1846 ;
+    font-weight: bold;
+    font-size: 16px;
+    cursor:pointer;
+    }
+    .dialog p{
+        margin-top: 5px;
+    }
+    
+@media screen and (max-width: 900px){
+    .dialog{
+        width: 80%;
+    }
+    #visi{
+        width: unset;
+        text-align: inherit;
+        margin:15px;
+        border-radius: 13px;
+    }
+}

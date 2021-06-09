@@ -1,0 +1,14 @@
+{
+  "name": "WEB APP NAME",
+  "short_name": "SHORT NAME FOR WEBAPP",
+  "start_url": "index.php",
+  "theme_color": "THEME COLOR",
+  "min_version": "VERSION CODE",
+  "background_color": "BG COLOR",
+  "display":"fullscreen",
+  "description": "SHORT DESCRIPTION FOR WEBAPP",
+  "icons": [{
+    "src": "ICON PATH",
+    "sizes": "ICON SIZE"
+  }]
+}
