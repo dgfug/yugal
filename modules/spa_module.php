@@ -28,9 +28,9 @@
                 foreach ($arr as $key=>$val){
                     if ($key === "title"){
                         $provisional_head = $provisional_head . "<title>";
-                            $provisional_head = $provisional_head. $val['en'];
+                            $provisional_head = $provisional_head. $val;
                             $provisional_head = $provisional_head .  "</title>";
-                            $provisional_head = $provisional_head . '<meta name="title" content="'.$val['en'].'">';
+                            $provisional_head = $provisional_head . '<meta name="title" content="'.$val.'">';
                     }elseif($key === "css"){
                         foreach ($val as $ele){
                             $provisional_head =  $provisional_head."<link rel='stylesheet' type='text/css' content='".$ele."'>";
@@ -86,9 +86,9 @@
         if ($key === "title"){
             if ($key === "title"){
                 echo "<title>";
-                    echo $val['en'];
+                    echo $val;
                     echo "</title>";
-                    echo '<meta name="title" content="'.$val['en'].'">';
+                    echo '<meta name="title" content="'.$val.'">';
             }
         }
     }
@@ -118,6 +118,10 @@
                     }elseif($key === "robots"){
                         if ($val == false){
                             echo "<meta name='robots' content='noindex'>";
+                        }
+                    }elseif($key === "js"){
+                        foreach ($val as $js){
+                            echo "<script src='".$js."'></script>";
                         }
                     }elseif($key === "custom"){
                         echo $val;
