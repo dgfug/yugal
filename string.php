@@ -22,7 +22,7 @@
     
     
     $webapp = true; //ENTER true if you are building webapp, else false. If you are not building webapp then you can delete 'menifest.webmenifest' file from dir.
-    $yugal_enable_spa = true;
+    $yugal_enable_spa = false;
     //TRUE IF YOU WANT TO USE SPA FEATURE IN IT.
 
     //MYSQL / MARIADB DETAIL FOR EACH PAGE
