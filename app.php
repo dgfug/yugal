@@ -6,7 +6,7 @@
       $screen = prnt(
             nointernet().
             // PROGRESS BAR BELOW
-            ''.
+            '<a onclick="tminc.launch(`s2`)">CLICK ME</a><br>'.
             // PROGRESS BAR ABOVE
             '<div id="root"></div>'
             ."<div class='fill_space_options' style='height:60px;'></div>"
