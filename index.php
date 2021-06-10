@@ -5,9 +5,6 @@
             "title"=>"TMINC Yugal",
             "design"=>array(
                 "def"
-            ),
-            "library"=>array(
-                "tminc-extras"
             )
         )
     );
