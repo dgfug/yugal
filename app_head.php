@@ -3,10 +3,7 @@
     include('string.php');
        add_spa(
         array(
-        "title"=>array(
-            "hi"=>"",
-            "en"=>""
-        ),
+        "title"=>"SOME TITLE",
         "design"=>array(
             "def"
                 ),
