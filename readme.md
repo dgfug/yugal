@@ -357,6 +357,7 @@ Before Deployment, head up to strinng.php file and do some changes as per the we
 - Set ```$webapp = true ``` or ```false```, if you have created a webapp then make it true else make it false.
 - If you have created a WebApp then edit to menifest.webmenifest file and change values according to your app.
 - Open ```.htaccess``` file and edit LINE 11 and change /yugal/ to file error404's path from the root. for eg: /error404
+- Open ```tminc.php``` File in ```/modules``` directory, and in LINE ```4``` set ```ini_set("display_errors", "1");``` to ```ini_set("display_errors", "0");```
 
 
 # Functions In Yugal
