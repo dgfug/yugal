@@ -2,7 +2,7 @@
     include('modules/tminc.php');   
     meta(
         array(
-            "title"=>"TMINC PHP+JS",
+            "title"=>"TMINC Yugal",
             "design"=>array(
                 "def"
             ),
