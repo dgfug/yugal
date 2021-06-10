@@ -10,7 +10,7 @@
             "sd"
             ). //DEFUALT HEADING AND ITS CSS FUNCTION (IMPORTED FROM comp/header.php)
           "HELLO WORLD"
-      );
-      save_screen($head, $screen);
+          );
+      save_screen($head, spa_body($screen));
 
 ?>
