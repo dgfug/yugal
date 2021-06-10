@@ -17,12 +17,12 @@
     //All univarsal library should be in Array
 
 
-    $site_title = "TMINC SITE TITLE"; 
+    $site_title = "YUGAL SITE TITLE"; 
     //This will be used by Framework and external Library will be able to reach it.
     
     
     $webapp = true; //ENTER true if you are building webapp, else false. If you are not building webapp then you can delete 'menifest.webmenifest' file from dir.
-    $yugal_enable_spa = true;
+    $yugal_enable_spa = false;
     //TRUE IF YOU WANT TO USE SPA FEATURE IN IT.
 
     //MYSQL / MARIADB DETAIL FOR EACH PAGE
