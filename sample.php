@@ -2,10 +2,7 @@
     include('modules/tminc.php');
     $head = spa(
         array(
-        "title"=>array(
-            "hi"=>" - सबकुछ",
-            "en"=>$site_title." - Everything"
-        ),
+        "title"=>"SITE TITLE",
         "import"=>"header"
     ));
       $screen = prnt(
