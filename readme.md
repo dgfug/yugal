@@ -10,7 +10,7 @@ Create Modern Web App, Single Page Application and Modern Backend with YUGAL. Pr
 
 ## Recommended Environment
 
-- ```XAMPP```, ```WAMPP```, ``APACHE``` Server
+- ```XAMPP```, ```WAMPP```, ```APACHE``` Server
 - Visual Studio Code
 
   
