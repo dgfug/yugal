@@ -353,6 +353,7 @@ You can add JS in ```add_spa()``` in ```js``` parameter in ```array```, it also 
 
 Before Deployment, head up to strinng.php file and do some changes as per the webapp.
 - Change theme colour in $theme_color as per your App, this will change browser's colour accordingly.
+- Edit other pre defined variables too in ```string.php``` file according to your Website or WebApp.
 - Set ```$webapp = true ``` or ```false```, if you have created a webapp then make it true else make it false.
 - If you have created a WebApp then edit to menifest.webmenifest file and change values according to your app.
 - Open ```.htaccess``` file and edit LINE 11 and change /yugal/ to file error404's path from the root. for eg: /error404
