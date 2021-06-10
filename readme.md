@@ -8,10 +8,10 @@ Create Modern Web App, Single Page Application and Modern Backend with YUGAL. Pr
  [@sinha.paurush](https://www.instagram.com/sinha.paurush/)
 
 
-## Environment
+## Recommended Environment
 
-Yugal Requires XAMPP/WAMPP developmental Environment. Yugal has capability to work within a Limited Hosting.
-
+- ```XAMPP```, ```WAMPP```, ``APACHE``` Server
+- Visual Studio Code
 
   
 ## Used In
