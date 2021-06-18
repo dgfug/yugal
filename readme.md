@@ -1,6 +1,8 @@
 
 # YUGAL 
 
+[Read Documentation](https://paurush-sinha-d.gitbook.io/y/)
+
 Create Modern Web App, Single Page Application and Modern Backend with YUGAL. Prebuild Markup with JS without BABEL. Develop Modern Applications with Limited Hosting.
 
 ## Author
@@ -38,30 +40,7 @@ or,  you can do this all without copy-pasting each command with following comman
 ```bash
   git clone https://github.com/sinhapaurush/yugal && mv 'yugal' ./'my-project-name' && cd ./'my-project-name' && rm 'readme.md'
 ```
-### String.php File
-Define your universal variables and Library variables here. Some Required settings is available here in the form of variables. To enable the set the respective value to true and vice versa.
-#### Never Delete a Pre-Defined variable from string.php file, even  if you don't have any use of it,it may create errors.
-```bash
-<?php
-    $theme_color = '#FFFFFF'; 
-    $favicon = array(false, false); 
-    /*
-        ENTER PATH OF YOUR FAVICON OR UPLOAD FAVICON IN ROOT FOLDER WITH NAME 'favicon.ico' 
-        or NO FAVICON WILL BE SET,
-        eg: $favicon = array("assets/favicon.png", "png");
-    */
 
-    $common_head_tag = ''; //ADD A COMMON HTML <HEAD> TAG HERE FOR ALL PAGES!
-    // THIS FESTURE IS GIVEN TO ADD ANY ANALYTIC CODE OR EXTERNAL LINK, CSS ETC.
-
-    $text_accent_heading = "#000000";
-    $text_accent_cont = "#000000";
-
-    $universal_library = array(); 
-    //All univarsal library should be in Array
-
-
-    $site_title = "TMINC SITE TITLE"; 
     //This will be used by Framework and external Library will be able to reach it.
     
     
