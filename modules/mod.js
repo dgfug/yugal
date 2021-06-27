@@ -44,7 +44,7 @@ function open(dest) {
 function error(msg) {
     console.error(msg);
 }
-function console(msg) {
+function log(msg) {
     console.log(msg);
 }
 function warn(msg) {
