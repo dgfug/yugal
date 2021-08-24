@@ -31,10 +31,10 @@
         toast('Thank You for Clicking me');
     ");
     script('
-        widget("text").addEventListener("change", ()=>{
+        setInterval(()=>{
             widget("clickme").innerHTML = widget("text").value;
             widget("clickme").value="";
-        });
+        }, 80);
     ');
     close();
 ?>
